@@ -1,1 +1,5 @@
-A basic 32-bit Operating system using assembly and C
+A basic 32-bit Operating system using assembly and C.
+The file contais a setup.sh, the programs needed for setting up the environment as there, just run the code in the terminal.
+"os-files", include all the codes for the OS.
+I've used grub as the multibootloader. and used it to create the iso image. 
+
