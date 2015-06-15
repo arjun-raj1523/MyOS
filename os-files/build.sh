@@ -3,5 +3,7 @@ gcc -m32 -c kernel.c -o kc.o
 ld -m elf_i386 -T link.ld -o bootloader/boot/kernel.bin kasm.o kc.o
 grub-mkrescue -o myos.iso bootloader/
 
+read a
+
 
 
